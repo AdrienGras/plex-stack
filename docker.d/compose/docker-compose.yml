@@ -1,0 +1,9 @@
+version: "3.8"
+
+networks:
+    default:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: "$DOCKER_NET_MASK"

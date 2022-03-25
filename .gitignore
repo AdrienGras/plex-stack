@@ -1,0 +1,9 @@
+##> env files ##
+.env
+.env_save
+!env.d/.env
+##< env files ##
+
+##> jetbrains ##
+.idea
+##< jetbrains ##
